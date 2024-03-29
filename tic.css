@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.game{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+.box{
+    height: 30%;
+    width: 30%;
+    border-radius: 1.5rem;
+    column-gap: 0.5rem;
+    font-size: 8vw;
+    color: black;
+    background-color: aquamarine;
+    
+    
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 40vw;
+    background-color: aqua;
+    column-gap: 0.8rem;
+    row-gap: 0rem;
+
+}
+
+.newGame{
+   
+    color: black;
+    background-color: rgb(74, 203, 31);
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+    
+}
+
+.newGame :hover{
+    color: blueviolet;
+    border-radius: 1rem;
+}
